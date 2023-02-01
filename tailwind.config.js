@@ -6,7 +6,16 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
-    extend: {},
+    // Some useful comment
+    fontFamily: {
+      'nunito': ['Gorditas', 'sans-serif'],
+      'MyFont': ['"My Font"', 'Gorditas'] // Ensure fonts with spaces have " " surrounding it.
+    },
   },
-  plugins: [],
+  variants: {
+    // Some useful comment
+  },
+  plugins: [
+    // Some useful comment
+  ]
 }

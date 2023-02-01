@@ -1,3 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Gorditas&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+.content {
+  padding: 20px;
+  min-height: 100%;
+  margin: 0 auto -50px;
+}
+.footer {
+  flex-shrink: 0;
+}
