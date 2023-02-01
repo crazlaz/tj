@@ -11,7 +11,7 @@ function NavBar() {
           <div>
             <div className="flex items-center justify-between py-3 md:py-5 md:block">
               <Link href="/">
-            <img src='imgs/main.svg' />
+            <img src='imgs/main2.svg' />
               </Link>
             
               <div className="md:hidden">
